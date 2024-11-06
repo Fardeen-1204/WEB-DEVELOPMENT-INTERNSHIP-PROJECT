@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+}
+.head {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+}
+.input {
+  display: flex;
+}
+.task {
+  padding-right: 20%;
+  padding-left: 0px;
+  padding-top: 9px;
+}
+.box {
+  width: 230px;
+  height: 30px;
+  border: 1px solid black;
+  background-color: #eaeaea;
+}
+.container {
+  width: 100%;
+  font-size: 20px;
+  position: relative;
+  padding: 10px;
+}
+.submit {
+  position: absolute;
+  left: 50%;
+  font-size: 20px;
+  border: 1px #eaeaea;
+  border-radius: 10%;
+  background-color: rgb(39, 242, 52);
+  color: #eaeaea;
+  margin: 20px;
+}
+.remove {
+  position: absolute;
+  left: 45%;
+  font-size: 20px;
+  border: 1px #eaeaea;
+  border-radius: 10%;
+  background-color: rgb(242, 39, 39);
+  color: #eaeaea;
+  margin: 20px;
+}
+.table {
+  margin: 20px;
+  padding-top: 10px;
+}
+table {
+  width: 100%;
+  margin-right: 50px;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 2px solid #eaeaea;
+  padding: 8px;
+  text-align: left;
+}
+thead {
+  background-color: greenyellow;
+}
+tbody {
+  background-color: #eaeaea;
+}
+tbody,
+td {
+  border: 1px solid black;
+}

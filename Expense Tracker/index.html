@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="head">
+      <h2>Expense Tracker</h2>
+    </div>
+    <div class="input">
+      <p>TASK:</p>
+      <div class="task">
+        <input type="text" class="box" placeholder="Task" id="task" />
+      </div>
+      <p>AMOUNT:</p>
+      <div class="task">
+        <input
+          type="number"
+          class="box"
+          type="number"
+          placeholder="Money Spend"
+          id="expense"
+        />
+      </div>
+      <p>Enter_Date:</p>
+      <div class="task">
+        <input type="date" class="box" placeholder="Date" id="date" />
+      </div>
+    </div>
+    <div class="container">
+      <button id="submit" onclick="submit()" class="submit">Credit</button>
+      <button id="remove" onclick="remove()" class="remove">DEBIT</button>
+    </div>
+
+    <div class="table">
+      <div class="head">
+        <h2>Expense List</h2>
+      </div>
+      <table border="1">
+        <thead>
+          <tr>
+            <td>Task</td>
+            <td>CREDIT/DEBIT</td>
+            <td>Expense</td>
+            <td>Date</td>
+            <td>Total</td>
+          </tr>
+        </thead>
+        <tbody id="tablebody"></tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
